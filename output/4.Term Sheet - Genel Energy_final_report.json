@@ -1,0 +1,170 @@
+{
+  "pdf": "4.Term Sheet - Genel Energy.pdf",
+  "booking": "Genel_Energy.csv",
+  "results": [
+    {
+      "field": "TradeID",
+      "status": "FIELD_NOT_EXTRACTED"
+    },
+    {
+      "field": "ISIN",
+      "status": "MATCH",
+      "extracted_value": "NO0010894330",
+      "booking_value": "NO0010894330",
+      "evidence": "ISIN: NO 0010894330",
+      "page": 1
+    },
+    {
+      "field": "Issuer",
+      "status": "MATCH",
+      "extracted_value": "Genel Energy Finance 4 Limited",
+      "booking_value": "Genel Energy Finance 4 Limited",
+      "evidence": "Issuer: | Genel Energy Finance 4 Limited (incorporated in England, company registration",
+      "page": 1
+    },
+    {
+      "field": "Maturity",
+      "status": "MATCH",
+      "extracted_value": "2025-10-14",
+      "booking_value": "10/14/2025",
+      "evidence": "Maturity Date: | Expected to be 14 October 2025 (5 years after Issue Date).",
+      "page": 1,
+      "reason": "The term sheet value '2025-10-14' (ISO format) and the booking value '10/14/2025' (US MM/DD/YYYY format) represent the same date: October 14, 2025. The evidence quote confirms the date is 14 October 2025."
+    },
+    {
+      "field": "Notional",
+      "status": "TRUE_MISMATCH",
+      "extracted_value": 300000000,
+      "booking_value": 3000000,
+      "evidence": "Issue Amount: | USD 300,000,000",
+      "page": 1,
+      "reason": "The term sheet and evidence indicate a notional of 300,000,000, while the booking system shows 3,000,000. This is a factor of 100 difference, not a formatting or representation issue."
+    },
+    {
+      "field": "Coupon",
+      "status": "MATCH",
+      "extracted_value": 9.25,
+      "booking_value": 9.25,
+      "evidence": "Coupon Rate: | 9.25% p.a., semi-annual interest payments.",
+      "page": 1
+    },
+    {
+      "field": "Currency",
+      "status": "MATCH",
+      "extracted_value": "USD",
+      "booking_value": "USD",
+      "evidence": "Currency: | USD",
+      "page": 1
+    },
+    {
+      "field": "SettlementDate",
+      "status": "TRUE_MISMATCH",
+      "extracted_value": null,
+      "booking_value": "10/14/2020",
+      "evidence": null,
+      "page": null,
+      "reason": "The term sheet value is missing (None) while the booking system contains a specific date (10/14/2020). A missing value cannot be reconciled with a present value, indicating a data gap or error."
+    },
+    {
+      "field": "DayCountFraction",
+      "status": "MATCH",
+      "extracted_value": "30/360",
+      "booking_value": "30/360",
+      "evidence": "Day-count fraction for coupon is \u201c30/360\u201d",
+      "page": 1
+    },
+    {
+      "field": "InterestPaymentDate",
+      "status": "FALSE_ALERT",
+      "extracted_value": "2021-04-14",
+      "booking_value": "4/14/2021",
+      "evidence": "First Interest Payment Date: Expected to be 14 April 2021",
+      "page": 1,
+      "reason": "The values represent the same date (April 14, 2021) but use different formatting conventions (ISO 8601 vs US standard)."
+    },
+    {
+      "field": "IssueDate",
+      "status": "FALSE_ALERT",
+      "extracted_value": "2020-10-14",
+      "booking_value": "10/14/2020",
+      "evidence": "Issue Date: Expected to be 14 October 2020",
+      "page": 1,
+      "reason": "The values represent the same date (October 14, 2020) but use different formatting conventions (ISO 8601 vs US MM/DD/YYYY)."
+    },
+    {
+      "field": "IssueAmount",
+      "status": "MATCH",
+      "extracted_value": 300000000,
+      "booking_value": 300000000,
+      "evidence": "Issue Amount: USD 300,000,000",
+      "page": 1
+    },
+    {
+      "field": "IssuePrice",
+      "status": "MATCH",
+      "extracted_value": 97,
+      "booking_value": 97,
+      "evidence": "Issue Price: 97% of the Nominal Amount.",
+      "page": 1
+    },
+    {
+      "field": "NominalAmountPerBond",
+      "status": "MATCH",
+      "extracted_value": 2000,
+      "booking_value": 2000,
+      "evidence": "The Bonds will have a nominal amount of USD 2,000 each.",
+      "page": 1
+    },
+    {
+      "field": "InterestPaymentFrequency",
+      "status": "MATCH",
+      "extracted_value": "semi-annual",
+      "booking_value": "Semi-annual",
+      "evidence": "9.25% p.a., semi-annual interest payments.",
+      "page": 1,
+      "reason": "The values 'semi-annual' and 'Semi-annual' are identical in meaning, differing only by capitalization."
+    },
+    {
+      "field": "BusinessDayConvention",
+      "status": "MATCH",
+      "extracted_value": "unadjusted",
+      "booking_value": "Unadjusted",
+      "evidence": "business day convention is \u201cunadjusted\u201d",
+      "page": 1,
+      "reason": "The values are identical except for capitalization (lowercase vs. capitalized), which does not change the meaning of the business day convention."
+    },
+    {
+      "field": "BusinessDayLocation",
+      "status": "FALSE_ALERT",
+      "extracted_value": "Oslo, New York",
+      "booking_value": "Oslo|New York",
+      "evidence": "business day is \u201cOslo\u201d and \u201cNew York\u201d",
+      "page": 1,
+      "reason": "The values contain the same locations ('Oslo' and 'New York') but differ only in the delimiter used (comma vs pipe), which is a representation difference."
+    },
+    {
+      "field": "AmortizationType",
+      "status": "MATCH",
+      "extracted_value": "Bullet",
+      "booking_value": "Bullet",
+      "evidence": "The Bonds shall be repaid in full at the Maturity Date",
+      "page": 1
+    },
+    {
+      "field": "MinimumSubscription",
+      "status": "MATCH",
+      "extracted_value": 200000,
+      "booking_value": 200000,
+      "evidence": "Minimum subscription and allotment amount shall be USD 200,000",
+      "page": 2
+    },
+    {
+      "field": "Parent",
+      "status": "MATCH",
+      "extracted_value": "Genel Energy plc",
+      "booking_value": "Genel Energy plc",
+      "evidence": "Parent: Genel Energy plc",
+      "page": 1
+    }
+  ]
+}

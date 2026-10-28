@@ -1,0 +1,135 @@
+{
+  "ISIN": {
+    "value": null,
+    "evidence": null,
+    "source_quote": null,
+    "page": null,
+    "status": "missing"
+  },
+  "Issuer": {
+    "value": "IDBI Bank Limited",
+    "evidence": "Issuer | IDBI Bank Limited",
+    "source_quote": "Issuer | IDBI Bank Limited",
+    "page": 1,
+    "status": "extracted"
+  },
+  "Maturity": {
+    "value": null,
+    "evidence": "Tenor | Perpetual",
+    "source_quote": "Tenor | Perpetual",
+    "page": 3,
+    "status": "missing"
+  },
+  "Notional": {
+    "value": 15000000000,
+    "evidence": "Rs.1,500 Crores",
+    "source_quote": "Rs.1,500 Crores",
+    "page": 1,
+    "status": "extracted"
+  },
+  "Coupon": {
+    "value": 10.75,
+    "evidence": "Coupon Rate | 10.75% p.a.",
+    "source_quote": "Coupon Rate | 10.75% p.a.",
+    "page": 3,
+    "status": "extracted"
+  },
+  "Currency": {
+    "value": "INR",
+    "evidence": "Rs.1,500 Crores",
+    "source_quote": "Rs.1,500 Crores",
+    "page": 1,
+    "status": "extracted"
+  },
+  "SettlementDate": {
+    "value": null,
+    "evidence": null,
+    "source_quote": null,
+    "page": null,
+    "status": "missing"
+  },
+  "DayCountFraction": {
+    "value": "Actual/Actual",
+    "evidence": "The Interest on application money will be computed as per Actual/Actual Day count convention.",
+    "source_quote": "computed as per Actual/Actual Day count convention",
+    "page": 4,
+    "status": "extracted"
+  },
+  "InterestPaymentDate": {
+    "value": null,
+    "evidence": "On the anniversary of the Deemed Date of Allotment.",
+    "source_quote": "On the anniversary of the Deemed Date of Allotment.",
+    "page": 3,
+    "status": "missing"
+  },
+  "IssueDate": {
+    "value": null,
+    "evidence": null,
+    "source_quote": null,
+    "page": null,
+    "status": "missing"
+  },
+  "IssueAmount": {
+    "value": 15000000000,
+    "evidence": "Rs.1,500 Crores with an option to retain over subscription up to Rs.1,000 Crores.",
+    "source_quote": "Rs.1,500 Crores with an option to retain over",
+    "page": 1,
+    "status": "extracted"
+  },
+  "IssuePrice": {
+    "value": null,
+    "evidence": null,
+    "source_quote": null,
+    "page": null,
+    "status": "missing"
+  },
+  "NominalAmountPerBond": {
+    "value": 1000000,
+    "evidence": "Rs.10,00,000/- (Rupees Ten Lakh) per Bond.",
+    "source_quote": "Rs.10,00,000/- (Rupees Ten Lakh) per Bond.",
+    "page": 3,
+    "status": "extracted"
+  },
+  "InterestPaymentFrequency": {
+    "value": "Annually",
+    "evidence": "coupon will be payable annually in arrear.",
+    "source_quote": "coupon will be payable annually in arrear.",
+    "page": 3,
+    "status": "extracted"
+  },
+  "BusinessDayConvention": {
+    "value": null,
+    "evidence": null,
+    "source_quote": null,
+    "page": null,
+    "status": "missing"
+  },
+  "BusinessDayLocation": {
+    "value": null,
+    "evidence": null,
+    "source_quote": null,
+    "page": null,
+    "status": "missing"
+  },
+  "AmortizationType": {
+    "value": "Perpetual",
+    "evidence": "Tenor | Perpetual",
+    "source_quote": "Perpetual",
+    "page": 3,
+    "status": "extracted"
+  },
+  "MinimumSubscription": {
+    "value": null,
+    "evidence": null,
+    "source_quote": null,
+    "page": null,
+    "status": "missing"
+  },
+  "Parent": {
+    "value": null,
+    "evidence": null,
+    "source_quote": null,
+    "page": null,
+    "status": "missing"
+  }
+}

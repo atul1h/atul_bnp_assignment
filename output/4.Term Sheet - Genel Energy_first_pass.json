@@ -1,0 +1,158 @@
+[
+  {
+    "field": "TradeID",
+    "status": "FIELD_NOT_EXTRACTED"
+  },
+  {
+    "field": "ISIN",
+    "status": "MATCH",
+    "extracted_value": "NO0010894330",
+    "booking_value": "NO0010894330",
+    "evidence": "ISIN: NO 0010894330",
+    "page": 1
+  },
+  {
+    "field": "Issuer",
+    "status": "MATCH",
+    "extracted_value": "Genel Energy Finance 4 Limited",
+    "booking_value": "Genel Energy Finance 4 Limited",
+    "evidence": "Issuer: | Genel Energy Finance 4 Limited (incorporated in England, company registration",
+    "page": 1
+  },
+  {
+    "field": "Maturity",
+    "status": "MISMATCH",
+    "extracted_value": "2025-10-14",
+    "booking_value": "10/14/2025",
+    "evidence": "Maturity Date: | Expected to be 14 October 2025 (5 years after Issue Date).",
+    "page": 1
+  },
+  {
+    "field": "Notional",
+    "status": "MISMATCH",
+    "extracted_value": 300000000,
+    "booking_value": 3000000,
+    "evidence": "Issue Amount: | USD 300,000,000",
+    "page": 1
+  },
+  {
+    "field": "Coupon",
+    "status": "MATCH",
+    "extracted_value": 9.25,
+    "booking_value": 9.25,
+    "evidence": "Coupon Rate: | 9.25% p.a., semi-annual interest payments.",
+    "page": 1
+  },
+  {
+    "field": "Currency",
+    "status": "MATCH",
+    "extracted_value": "USD",
+    "booking_value": "USD",
+    "evidence": "Currency: | USD",
+    "page": 1
+  },
+  {
+    "field": "SettlementDate",
+    "status": "MISMATCH",
+    "extracted_value": null,
+    "booking_value": "10/14/2020",
+    "evidence": null,
+    "page": null
+  },
+  {
+    "field": "DayCountFraction",
+    "status": "MATCH",
+    "extracted_value": "30/360",
+    "booking_value": "30/360",
+    "evidence": "Day-count fraction for coupon is \u201c30/360\u201d",
+    "page": 1
+  },
+  {
+    "field": "InterestPaymentDate",
+    "status": "MISMATCH",
+    "extracted_value": "2021-04-14",
+    "booking_value": "4/14/2021",
+    "evidence": "First Interest Payment Date: Expected to be 14 April 2021",
+    "page": 1
+  },
+  {
+    "field": "IssueDate",
+    "status": "MISMATCH",
+    "extracted_value": "2020-10-14",
+    "booking_value": "10/14/2020",
+    "evidence": "Issue Date: Expected to be 14 October 2020",
+    "page": 1
+  },
+  {
+    "field": "IssueAmount",
+    "status": "MATCH",
+    "extracted_value": 300000000,
+    "booking_value": 300000000,
+    "evidence": "Issue Amount: USD 300,000,000",
+    "page": 1
+  },
+  {
+    "field": "IssuePrice",
+    "status": "MATCH",
+    "extracted_value": 97,
+    "booking_value": 97,
+    "evidence": "Issue Price: 97% of the Nominal Amount.",
+    "page": 1
+  },
+  {
+    "field": "NominalAmountPerBond",
+    "status": "MATCH",
+    "extracted_value": 2000,
+    "booking_value": 2000,
+    "evidence": "The Bonds will have a nominal amount of USD 2,000 each.",
+    "page": 1
+  },
+  {
+    "field": "InterestPaymentFrequency",
+    "status": "MISMATCH",
+    "extracted_value": "semi-annual",
+    "booking_value": "Semi-annual",
+    "evidence": "9.25% p.a., semi-annual interest payments.",
+    "page": 1
+  },
+  {
+    "field": "BusinessDayConvention",
+    "status": "MISMATCH",
+    "extracted_value": "unadjusted",
+    "booking_value": "Unadjusted",
+    "evidence": "business day convention is \u201cunadjusted\u201d",
+    "page": 1
+  },
+  {
+    "field": "BusinessDayLocation",
+    "status": "MISMATCH",
+    "extracted_value": "Oslo, New York",
+    "booking_value": "Oslo|New York",
+    "evidence": "business day is \u201cOslo\u201d and \u201cNew York\u201d",
+    "page": 1
+  },
+  {
+    "field": "AmortizationType",
+    "status": "MATCH",
+    "extracted_value": "Bullet",
+    "booking_value": "Bullet",
+    "evidence": "The Bonds shall be repaid in full at the Maturity Date",
+    "page": 1
+  },
+  {
+    "field": "MinimumSubscription",
+    "status": "MATCH",
+    "extracted_value": 200000,
+    "booking_value": 200000,
+    "evidence": "Minimum subscription and allotment amount shall be USD 200,000",
+    "page": 2
+  },
+  {
+    "field": "Parent",
+    "status": "MATCH",
+    "extracted_value": "Genel Energy plc",
+    "booking_value": "Genel Energy plc",
+    "evidence": "Parent: Genel Energy plc",
+    "page": 1
+  }
+]

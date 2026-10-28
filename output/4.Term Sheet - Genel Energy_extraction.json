@@ -1,0 +1,135 @@
+{
+  "ISIN": {
+    "value": "NO0010894330",
+    "evidence": "ISIN: NO 0010894330",
+    "source_quote": "ISIN: NO 0010894330",
+    "page": 1,
+    "status": "extracted"
+  },
+  "Issuer": {
+    "value": "Genel Energy Finance 4 Limited",
+    "evidence": "Issuer: | Genel Energy Finance 4 Limited (incorporated in England, company registration number 11867181)",
+    "source_quote": "Issuer: | Genel Energy Finance 4 Limited (incorporated in England, company registration",
+    "page": 1,
+    "status": "extracted"
+  },
+  "Maturity": {
+    "value": "2025-10-14",
+    "evidence": "Maturity Date: | Expected to be 14 October 2025 (5 years after Issue Date).",
+    "source_quote": "Maturity Date: | Expected to be 14 October 2025 (5 years after Issue Date).",
+    "page": 1,
+    "status": "extracted"
+  },
+  "Notional": {
+    "value": 300000000,
+    "evidence": "Issue Amount: | USD 300,000,000",
+    "source_quote": "Issue Amount: | USD 300,000,000",
+    "page": 1,
+    "status": "extracted"
+  },
+  "Coupon": {
+    "value": 9.25,
+    "evidence": "Coupon Rate: | 9.25% p.a., semi-annual interest payments.",
+    "source_quote": "Coupon Rate: | 9.25% p.a., semi-annual interest payments.",
+    "page": 1,
+    "status": "extracted"
+  },
+  "Currency": {
+    "value": "USD",
+    "evidence": "Currency: | USD",
+    "source_quote": "Currency: | USD",
+    "page": 1,
+    "status": "extracted"
+  },
+  "SettlementDate": {
+    "value": null,
+    "evidence": null,
+    "source_quote": null,
+    "page": null,
+    "status": "missing"
+  },
+  "DayCountFraction": {
+    "value": "30/360",
+    "evidence": "Day-count fraction for coupon is \u201c30/360\u201d",
+    "source_quote": "Day-count fraction for coupon is \u201c30/360\u201d",
+    "page": 1,
+    "status": "extracted"
+  },
+  "InterestPaymentDate": {
+    "value": "2021-04-14",
+    "evidence": "First Interest Payment Date: Expected to be 14 April 2021",
+    "source_quote": "First Interest Payment Date: Expected to be 14 April 2021",
+    "page": 1,
+    "status": "extracted"
+  },
+  "IssueDate": {
+    "value": "2020-10-14",
+    "evidence": "Issue Date: Expected to be 14 October 2020",
+    "source_quote": "Issue Date: Expected to be 14 October 2020",
+    "page": 1,
+    "status": "extracted"
+  },
+  "IssueAmount": {
+    "value": 300000000,
+    "evidence": "Issue Amount: USD 300,000,000",
+    "source_quote": "Issue Amount: USD 300,000,000",
+    "page": 1,
+    "status": "extracted"
+  },
+  "IssuePrice": {
+    "value": 97,
+    "evidence": "Issue Price: 97% of the Nominal Amount.",
+    "source_quote": "Issue Price: 97% of the Nominal Amount.",
+    "page": 1,
+    "status": "extracted"
+  },
+  "NominalAmountPerBond": {
+    "value": 2000,
+    "evidence": "The Bonds will have a nominal amount of USD 2,000 each.",
+    "source_quote": "The Bonds will have a nominal amount of USD 2,000 each.",
+    "page": 1,
+    "status": "extracted"
+  },
+  "InterestPaymentFrequency": {
+    "value": "semi-annual",
+    "evidence": "9.25% p.a., semi-annual interest payments.",
+    "source_quote": "9.25% p.a., semi-annual interest payments.",
+    "page": 1,
+    "status": "extracted"
+  },
+  "BusinessDayConvention": {
+    "value": "unadjusted",
+    "evidence": "business day convention is \u201cunadjusted\u201d",
+    "source_quote": "business day convention is \u201cunadjusted\u201d",
+    "page": 1,
+    "status": "extracted"
+  },
+  "BusinessDayLocation": {
+    "value": "Oslo, New York",
+    "evidence": "business day is \u201cOslo\u201d and \u201cNew York\u201d",
+    "source_quote": "business day is \u201cOslo\u201d and \u201cNew York\u201d",
+    "page": 1,
+    "status": "extracted"
+  },
+  "AmortizationType": {
+    "value": "Bullet",
+    "evidence": "The Bonds shall be repaid in full at the Maturity Date",
+    "source_quote": "The Bonds shall be repaid in full at the Maturity Date",
+    "page": 1,
+    "status": "extracted"
+  },
+  "MinimumSubscription": {
+    "value": 200000,
+    "evidence": "Minimum subscription and allotment amount shall be USD 200,000",
+    "source_quote": "Minimum subscription and allotment amount shall be USD 200,000",
+    "page": 2,
+    "status": "extracted"
+  },
+  "Parent": {
+    "value": "Genel Energy plc",
+    "evidence": "Parent: Genel Energy plc",
+    "source_quote": "Parent: Genel Energy plc",
+    "page": 1,
+    "status": "extracted"
+  }
+}

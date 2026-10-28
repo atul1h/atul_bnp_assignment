@@ -1,0 +1,22 @@
+{
+  "TradeID": 1,
+  "ISIN": "NO0010894330",
+  "Issuer": "Genel Energy Finance 4 Limited",
+  "Maturity": "10/14/2025",
+  "Notional": 3000000,
+  "Coupon": 9.25,
+  "Currency": "USD",
+  "SettlementDate": "10/14/2020",
+  "DayCountFraction": "30/360",
+  "InterestPaymentDate": "4/14/2021",
+  "IssueDate": "10/14/2020",
+  "IssueAmount": 300000000,
+  "IssuePrice": 97,
+  "NominalAmountPerBond": 2000,
+  "InterestPaymentFrequency": "Semi-annual",
+  "BusinessDayConvention": "Unadjusted",
+  "BusinessDayLocation": "Oslo|New York",
+  "AmortizationType": "Bullet",
+  "MinimumSubscription": 200000,
+  "Parent": "Genel Energy plc"
+}

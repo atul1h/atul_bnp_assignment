@@ -1,0 +1,174 @@
+{
+  "pdf": "3Term _Sheet _IDBI.pdf",
+  "booking": "IDBI_Omni.csv",
+  "results": [
+    {
+      "field": "TradeID",
+      "status": "FIELD_NOT_EXTRACTED"
+    },
+    {
+      "field": "ISIN",
+      "status": "TRUE_MISMATCH",
+      "extracted_value": null,
+      "booking_value": "INE008A08U84",
+      "evidence": null,
+      "page": null,
+      "reason": "The term sheet value is missing (None) while the booking system contains a specific ISIN (INE008A08U84). A missing identifier in the source document compared to a present identifier in the booking system is a genuine discrepancy requiring investigation to ensure the correct instrument was booked."
+    },
+    {
+      "field": "Issuer",
+      "status": "MATCH",
+      "extracted_value": "IDBI Bank Limited",
+      "booking_value": "IDBI Bank Limited",
+      "evidence": "Issuer | IDBI Bank Limited",
+      "page": 1
+    },
+    {
+      "field": "Maturity",
+      "status": "TRUE_MISMATCH",
+      "extracted_value": null,
+      "booking_value": "2025-10-17",
+      "evidence": "Tenor | Perpetual",
+      "page": 3,
+      "reason": "The term sheet specifies a 'Perpetual' tenor, which implies no maturity date, while the booking system records a specific maturity date of 2025-10-17. These are fundamentally different financial structures."
+    },
+    {
+      "field": "Notional",
+      "status": "TRUE_MISMATCH",
+      "extracted_value": 15000000000,
+      "booking_value": 1000000,
+      "evidence": "Rs.1,500 Crores",
+      "page": 1,
+      "reason": "The term sheet value (15,000,000,000) aligns with the evidence 'Rs.1,500 Crores' (1,500 * 10,000,000 = 15,000,000,000). The booking value (1,000,000) is significantly different, indicating a genuine discrepancy."
+    },
+    {
+      "field": "Coupon",
+      "status": "MATCH",
+      "extracted_value": 10.75,
+      "booking_value": 10.75,
+      "evidence": "Coupon Rate | 10.75% p.a.",
+      "page": 3
+    },
+    {
+      "field": "Currency",
+      "status": "MATCH",
+      "extracted_value": "INR",
+      "booking_value": "INR",
+      "evidence": "Rs.1,500 Crores",
+      "page": 1
+    },
+    {
+      "field": "SettlementDate",
+      "status": "TRUE_MISMATCH",
+      "extracted_value": null,
+      "booking_value": "2014-10-17",
+      "evidence": null,
+      "page": null,
+      "reason": "The term sheet value is missing (None) while the booking system contains a specific date (2014-10-17). A missing value cannot be reconciled with a present value, indicating a data gap or error."
+    },
+    {
+      "field": "DayCountFraction",
+      "status": "MATCH",
+      "extracted_value": "Actual/Actual",
+      "booking_value": "Actual/Actual",
+      "evidence": "computed as per Actual/Actual Day count convention",
+      "page": 4
+    },
+    {
+      "field": "InterestPaymentDate",
+      "status": "TRUE_MISMATCH",
+      "extracted_value": null,
+      "booking_value": "2015-10-17",
+      "evidence": "On the anniversary of the Deemed Date of Allotment.",
+      "page": 3,
+      "reason": "The term sheet specifies a formulaic date ('On the anniversary of the Deemed Date of Allotment') rather than a fixed calendar date, while the booking system contains a specific fixed date (2015-10-17). Without the Deemed Date of Allotment, the term sheet value cannot be verified as identical to the booking value, and the presence of a specific date in the booking system against a formulaic description in the term sheet indicates a discrepancy in how the payment date is defined or recorded."
+    },
+    {
+      "field": "IssueDate",
+      "status": "TRUE_MISMATCH",
+      "extracted_value": null,
+      "booking_value": "2014-10-17",
+      "evidence": null,
+      "page": null,
+      "reason": "The term sheet value is missing (None) while the booking system contains a specific date (2014-10-17). A missing value cannot be considered a match or a representation difference of the existing value."
+    },
+    {
+      "field": "IssueAmount",
+      "status": "MATCH",
+      "extracted_value": 15000000000,
+      "booking_value": 15000000000,
+      "evidence": "Rs.1,500 Crores with an option to retain over",
+      "page": 1
+    },
+    {
+      "field": "IssuePrice",
+      "status": "TRUE_MISMATCH",
+      "extracted_value": null,
+      "booking_value": 100,
+      "evidence": null,
+      "page": null,
+      "reason": "The term sheet value is missing (None) while the booking system records a specific issue price of 100. This indicates a data omission or discrepancy that requires investigation."
+    },
+    {
+      "field": "NominalAmountPerBond",
+      "status": "MATCH",
+      "extracted_value": 1000000,
+      "booking_value": 1000000,
+      "evidence": "Rs.10,00,000/- (Rupees Ten Lakh) per Bond.",
+      "page": 3
+    },
+    {
+      "field": "InterestPaymentFrequency",
+      "status": "FALSE_ALERT",
+      "extracted_value": "Annually",
+      "booking_value": "Annual",
+      "evidence": "coupon will be payable annually in arrear.",
+      "page": 3,
+      "reason": "Annually and Annual are synonymous representations of the same payment frequency."
+    },
+    {
+      "field": "BusinessDayConvention",
+      "status": "FALSE_ALERT",
+      "extracted_value": null,
+      "booking_value": "Business day adjustment",
+      "evidence": null,
+      "page": null,
+      "reason": "The term sheet value 'None' typically indicates that the field was not explicitly populated or is blank, while the booking system value 'Business day adjustment' is a standard default or generic label for the field. In the absence of a specific conflicting convention (e.g., 'Following' vs 'Preceding') in the term sheet, this is treated as a representation difference where the absence of data does not constitute a genuine conflict with a generic placeholder."
+    },
+    {
+      "field": "BusinessDayLocation",
+      "status": "TRUE_MISMATCH",
+      "extracted_value": null,
+      "booking_value": "Mumbai|New Delhi",
+      "evidence": null,
+      "page": null,
+      "reason": "The term sheet value is 'None' (indicating missing or undefined data), while the booking system specifies 'Mumbai|New Delhi'. This is a substantive difference in data presence and content, not a mere formatting or representation issue."
+    },
+    {
+      "field": "AmortizationType",
+      "status": "MATCH",
+      "extracted_value": "Perpetual",
+      "booking_value": "Perpetual",
+      "evidence": "Perpetual",
+      "page": 3
+    },
+    {
+      "field": "MinimumSubscription",
+      "status": "TRUE_MISMATCH",
+      "extracted_value": null,
+      "booking_value": 5000000,
+      "evidence": null,
+      "page": null,
+      "reason": "The term sheet indicates no minimum subscription (None), while the booking system records a specific value of 5,000,000. This is a substantive difference in trade terms, not a formatting issue."
+    },
+    {
+      "field": "Parent",
+      "status": "TRUE_MISMATCH",
+      "extracted_value": null,
+      "booking_value": "IDBI Bank Limited",
+      "evidence": null,
+      "page": null,
+      "reason": "The term sheet indicates no parent entity (None), while the booking system records 'IDBI Bank Limited'. This is a substantive difference in the legal structure or issuer hierarchy, not a formatting issue."
+    }
+  ]
+}

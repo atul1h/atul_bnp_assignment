@@ -1,0 +1,158 @@
+[
+  {
+    "field": "TradeID",
+    "status": "FIELD_NOT_EXTRACTED"
+  },
+  {
+    "field": "ISIN",
+    "status": "MISMATCH",
+    "extracted_value": null,
+    "booking_value": "INE008A08U84",
+    "evidence": null,
+    "page": null
+  },
+  {
+    "field": "Issuer",
+    "status": "MATCH",
+    "extracted_value": "IDBI Bank Limited",
+    "booking_value": "IDBI Bank Limited",
+    "evidence": "Issuer | IDBI Bank Limited",
+    "page": 1
+  },
+  {
+    "field": "Maturity",
+    "status": "MISMATCH",
+    "extracted_value": null,
+    "booking_value": "2025-10-17",
+    "evidence": "Tenor | Perpetual",
+    "page": 3
+  },
+  {
+    "field": "Notional",
+    "status": "MISMATCH",
+    "extracted_value": 15000000000,
+    "booking_value": 1000000,
+    "evidence": "Rs.1,500 Crores",
+    "page": 1
+  },
+  {
+    "field": "Coupon",
+    "status": "MATCH",
+    "extracted_value": 10.75,
+    "booking_value": 10.75,
+    "evidence": "Coupon Rate | 10.75% p.a.",
+    "page": 3
+  },
+  {
+    "field": "Currency",
+    "status": "MATCH",
+    "extracted_value": "INR",
+    "booking_value": "INR",
+    "evidence": "Rs.1,500 Crores",
+    "page": 1
+  },
+  {
+    "field": "SettlementDate",
+    "status": "MISMATCH",
+    "extracted_value": null,
+    "booking_value": "2014-10-17",
+    "evidence": null,
+    "page": null
+  },
+  {
+    "field": "DayCountFraction",
+    "status": "MATCH",
+    "extracted_value": "Actual/Actual",
+    "booking_value": "Actual/Actual",
+    "evidence": "computed as per Actual/Actual Day count convention",
+    "page": 4
+  },
+  {
+    "field": "InterestPaymentDate",
+    "status": "MISMATCH",
+    "extracted_value": null,
+    "booking_value": "2015-10-17",
+    "evidence": "On the anniversary of the Deemed Date of Allotment.",
+    "page": 3
+  },
+  {
+    "field": "IssueDate",
+    "status": "MISMATCH",
+    "extracted_value": null,
+    "booking_value": "2014-10-17",
+    "evidence": null,
+    "page": null
+  },
+  {
+    "field": "IssueAmount",
+    "status": "MATCH",
+    "extracted_value": 15000000000,
+    "booking_value": 15000000000,
+    "evidence": "Rs.1,500 Crores with an option to retain over",
+    "page": 1
+  },
+  {
+    "field": "IssuePrice",
+    "status": "MISMATCH",
+    "extracted_value": null,
+    "booking_value": 100,
+    "evidence": null,
+    "page": null
+  },
+  {
+    "field": "NominalAmountPerBond",
+    "status": "MATCH",
+    "extracted_value": 1000000,
+    "booking_value": 1000000,
+    "evidence": "Rs.10,00,000/- (Rupees Ten Lakh) per Bond.",
+    "page": 3
+  },
+  {
+    "field": "InterestPaymentFrequency",
+    "status": "MISMATCH",
+    "extracted_value": "Annually",
+    "booking_value": "Annual",
+    "evidence": "coupon will be payable annually in arrear.",
+    "page": 3
+  },
+  {
+    "field": "BusinessDayConvention",
+    "status": "MISMATCH",
+    "extracted_value": null,
+    "booking_value": "Business day adjustment",
+    "evidence": null,
+    "page": null
+  },
+  {
+    "field": "BusinessDayLocation",
+    "status": "MISMATCH",
+    "extracted_value": null,
+    "booking_value": "Mumbai|New Delhi",
+    "evidence": null,
+    "page": null
+  },
+  {
+    "field": "AmortizationType",
+    "status": "MATCH",
+    "extracted_value": "Perpetual",
+    "booking_value": "Perpetual",
+    "evidence": "Perpetual",
+    "page": 3
+  },
+  {
+    "field": "MinimumSubscription",
+    "status": "MISMATCH",
+    "extracted_value": null,
+    "booking_value": 5000000,
+    "evidence": null,
+    "page": null
+  },
+  {
+    "field": "Parent",
+    "status": "MISMATCH",
+    "extracted_value": null,
+    "booking_value": "IDBI Bank Limited",
+    "evidence": null,
+    "page": null
+  }
+]
